@@ -15,25 +15,14 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage[hidelinks]{hyperref}
 \input{glyphtounicode}
 
 
 %----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
-
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
 \fancyfoot{}
@@ -107,16 +96,11 @@
 \begin{document}
 
 %----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
-
 \begin{center}
     \textbf{\Huge \scshape Adam Galek} \\ \vspace{1pt}
-    \small 647-219-8131 $|$ \href{mailto:galekxy94@gmail.com}{\underline{galekxy94@gmail.com}} $|$ 
-    \href{https://www.linkedin.com/in/adamgalek/}{\underline{linkedin.com/in/adamgalek/}} $|$
-    \href{https://github.com/TheGalekxy}{\underline{github.com/TheGalekxy}}
+    \href{https://www.adamgalek.ca}{\underline{website}} $|$ \href{mailto:galekxy94@gmail.com}{\underline{email}} $|$ 
+    \href{https://www.linkedin.com/in/adamgalek/}{\underline{linkedin}} $|$
+    \href{https://github.com/TheGalekxy}{\underline{github}}
 \end{center}
 
 
@@ -128,8 +112,9 @@
       {Software Engineer}{Sep 2021 -- Present}
       {Xello}{Toronto, ON - Remote}
       \resumeItemListStart
+        \resumeItem{Full-Stack Development: Built and maintained an internal CMS using C\#, .NET 8, and Razor, handling both backend logic and dynamic server-rendered frontend.}
         \resumeItem{Developed automated data integration processes using C\#, ASP.NET, and SQL, reducing the average deployment time by two hours, minimizing manual developer time for future data update requests}
-        \resumeItem{Identified and clarified feature requests, leading to the successful implementation of an automated email and Slack notification system utilizing web hooks to alert the team of data integration failures, which improved response times to issues from days to minutes}
+        \resumeItem{Identified and clarified feature requests, leading to the successful implementation of an automated email and Slack notification system utilizing web hooks to alert the team of data integration failures, improving response times to issues from days to minutes}
         \resumeItem{Led training \& knowledge sharing sessions, and implemented an improved documentation system which enhanced stakeholders' knowledge of the company's internal tools, empowering product teams}
         \resumeItem{Using the Figma and Github API's, improved the design-to-development workflow by establishing a process for adding, updating, and utilizing icons and illustration assets in product applications, enhanced UI consistency and minimizing developer \& designer time to manual update UI assets}
         \resumeItem{Developed an internal component library using Lit, TypeScript, and Sass, creating over 25 components utilized by five product teams}
@@ -147,15 +132,43 @@
     % \resumeSubHeadingListEnd
 %-------------------------------------------
 
-    \resumeSubheading
-      {Web Developer}{Jan. 2021 -- Mar. 2021}
-      {Noel Semple Campaign}{Toronto, ON - Remote}
-      \resumeItemListStart
-        \resumeItem{Collaborated as a team of 2 developers to develop a campaign website using the Nationbuilder content management system}
-        \resumeItem{Developed a political campaign website from inception to delivery on a strict deadline for campaign launch}
-    \resumeItemListEnd
+    % \resumeSubheading
+    %   {Web Developer}{Jan. 2021 -- Mar. 2021}
+    %   {Noel Semple Campaign}{Toronto, ON - Remote}
+    %   \resumeItemListStart
+    %     \resumeItem{Collaborated as a team of 2 developers to develop a campaign website using the Nationbuilder content management system}
+    %     \resumeItem{Developed a political campaign website from inception to delivery on a strict deadline for campaign launch}
+    %   \resumeItemListEnd
 
   \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Fantasy Puck Lab} $|$ \emph{HTML5, CSS, JavaScript, Git, Netlify, Google Analytics }}{July 2025 -- Present}
+          \resumeItemListStart
+            \resumeItem{Built a responsive web app to help fantasy hockey participants optimize roster and contract decisions}
+            \resumeItem{Developed interactive skater and goalie contract calculators using DOM manipulation and event handling}
+            \resumeItem{Implemented an image download feature utilizing html2canvas that turns calculated contracts into image files for efficient team management, reducing calculating time by up to 5 minutes per contract}
+            \resumeItem{Implemented Google Analytics to monitor engagement, reaching 49 active users since launch}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{JustCook} $|$ \emph{HTML5, CSS, JavaScript, React, Express, Redux, Git}}{March 2021 -- May 2021}
+          \resumeItemListStart
+            \resumeItem{Developed a full-stack web application with a team of 4 other developers using a React frontend}
+            \resumeItem{Connected to the Spoonacular API to retrieve recipe data}
+            \resumeItem{Implemented a shopping cart with state management using Redux}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Galekxy Media Youtube} }{May 2020 -- Present}
+          \resumeItemListStart
+            \resumeItem{A YouTube Channel to discuss technology, entrepreneurship, my tech journey, and to help developers learn web development topics}
+            \resumeItem{First published video, a tutorial on how to host a React application using GitHub pages has gained over 12000 views, 450 likes, and 60 comments}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------
 \section{Education}
@@ -168,36 +181,17 @@
       {Honours Bachelor of Arts in Anthropology, Business Studies Certificate }{Sep. 2013 -- Dec 2019}
   \resumeSubHeadingListEnd
 
-%-----------PROJECTS-----------
-\section{Projects}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{JustCook} $|$ \emph{HTML5, CSS, JavaScript, React, Express, Redux, Git}}{March 2021 -- May 2021}
-          \resumeItemListStart
-            \resumeItem{Developed a full-stack web application with a team of 4 other developers using a React frontend}
-            \resumeItem{Connected to the Spoonacular API to retrieve recipe data}
-            \resumeItem{Implemented a shopping cart with state management using Redux}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Galekxy Media Youtube} }{May 2020 -- Present}
-          \resumeItemListStart
-            \resumeItem{A YouTube Channel to explore my interests in web development, technology, and to help other programmers learn beginner web development content}
-            \resumeItem{Published first video, a tutorial on how to host a static React application using GitHub pages has gained over 11000 views, 450 likes, and 60 comments}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
-
 %-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: HTML, CSS, JavaScript, C\#, SQL, TypeScript, Sass, Htmx, PostgreSQL } \\
-     \textbf{Frameworks}{: Lit, ASP.Net, React} \\
-     \textbf{Other Technologies}{: Node.js, xUnit, Jest, Slack Webhooks} \\
-     \textbf{Developer Tools}{: Git, VS Code, Visual Studio, SQL Server Management Studio, ChatGPT } \\
-    %  \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+     \textbf{Languages \& Querying}{:  HTML, CSS, Sass, JavaScript, TypeScript, C\#, SQL, PostgreSQL, Razor } \\
+     \textbf{Frameworks \& Libraries}{: .NET 8 (ASP.NET Core), React, Lit, Htmx} \\
+     \textbf{Testing \& Tooling}{: xUnit, Jest} \\
+     \textbf{Other Technologies}{: Node.js, Slack Webhooks} \\
+     \textbf{Developer Tools}{: Git, VS Code, Visual Studio, SQL Server Management Studio, GenAI (ChatGPT, Claude, Copilot) } \\
     }}
  \end{itemize}
-
 
 %-------------------------------------------
 \end{document}

@@ -5,4 +5,4 @@ Based off of [jakegut/resume](https://github.com/jakegut/resume) which is based 
 
 Use it on overleaf: [Adam's Resume](https://www.overleaf.com/read/tvzmnxgxthqp)
 
-![Resume Preview](./General/AdamResume.png)
+![Resume Preview](./General/AdamResume082025.png)
